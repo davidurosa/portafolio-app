@@ -68,6 +68,7 @@
     }
     .experience__content{
         margin: 1rem;
+        padding: 3rem;
     }
 
     
@@ -78,6 +79,8 @@
     }
     .experience__container > div h3{
         margin: 0.5rem;
+        padding: 3rem;
+
     }
  }
  
