@@ -81,7 +81,7 @@ header{
 
     }
 
-    .header__socials,.scroll__down{
+    .header__socials,.scroll__down,.me{
         display: none;
     }
 }
