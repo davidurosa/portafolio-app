@@ -87,3 +87,21 @@ border: 1px solid var(--color-primary-variant);
     background: rgba(0,0, 0, 0.5);
     border-radius: 20px;
 }
+
+
+/* ============MEDIA QUERY()MEDIA DIVICES================= */
+
+@media screen and (max-width: 1024px  ) {
+    .container__card{
+        width: var(--container-width-md);
+
+    }
+ }
+ 
+ /* ============MEDIA QUERY(SMALL DIVICES)================= */
+ 
+ @media screen and (max-width: 600px  ) {
+   .container__card{
+     width: var(--container-width-sm);
+   }
+ }
