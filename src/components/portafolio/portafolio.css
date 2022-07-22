@@ -92,16 +92,22 @@ border: 1px solid var(--color-primary-variant);
 /* ============MEDIA QUERY()MEDIA DIVICES================= */
 
 @media screen and (max-width: 1024px  ) {
-    .container__card{
-        width: var(--container-width-md);
+    
 
-    }
  }
  
  /* ============MEDIA QUERY(SMALL DIVICES)================= */
  
  @media screen and (max-width: 600px  ) {
-   .container__card{
-     width: var(--container-width-sm);
-   }
+    .card{
+        width: 250px;
+        height: 300px;
+       
+    }
+    .body__card_back p{
+        margin-top: 20px;
+        font-size: 11px;
+        color: var(--color-light);
+    
+    }
  }

@@ -65,13 +65,17 @@
      
     .experience__container{
         gap: 1rem;
-        width: var(--container-width-sm);
-        
     }
 
+    
+
+
     .experience__container > div{
-        width: 90%;
         padding: 2rem 1rem;
+        font-size: 11px;
+    }
+    .experience__container > div h3{
+        margin: 1rem;
     }
  }
  
