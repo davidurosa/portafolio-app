@@ -57,6 +57,10 @@ footer a{
 /* ============MEDIA QUERY(SMALL DIVICES)================= */
 
 @media screen and (max-width: 600px  ) {
+    footer{
+        width: 100%;
+    }
+
     .permalinks{
         flex-direction: column;
         gap: 1.5rem;
