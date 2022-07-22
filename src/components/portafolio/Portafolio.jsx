@@ -63,7 +63,7 @@ const Portafolio = () => {
           </div>
           <div className="card__back">
             <div className="body__card_back">
-              <h2>apicacion movil</h2>
+              <h2>aplicacion movil</h2>
               <p>
                  esta aplicacion 
                  fue diseñada con react Native
