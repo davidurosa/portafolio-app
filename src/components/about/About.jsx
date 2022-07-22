@@ -35,7 +35,7 @@ const About = () => {
             </article>
           </div>
           <p>
-          Soy TSU informatica. Cuento con mas de 3 años de experiencia, en el area de programacion.
+          Soy TSU informatica. Cuento con mas de 3 años de experiencia en el area de programacion.
           He completado infinidades de cursos, tanto  el Frontend y Backend.
           </p>
           <a href="#contact" className="btn btn-primary">
