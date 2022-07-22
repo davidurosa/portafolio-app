@@ -41,7 +41,7 @@ const Portafolio = () => {
                 GIT
               </a>
               <a
-                href="https://www.linkedin.com/in/david-urosa-9a9463144/"
+                href="https://david-urosa-movies.netlify.app"
                 className="btn btn-primary btn_all"
                 target="_blank"
                 rel="noreferrer"
