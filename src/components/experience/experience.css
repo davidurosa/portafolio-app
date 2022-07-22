@@ -67,7 +67,9 @@
         gap: 1rem;
     }
     
-
+    .experience__content{
+        margin: -1rem
+    }
     .experience__container > div{
         font-size: 11px;
     }
