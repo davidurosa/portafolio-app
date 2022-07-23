@@ -37,7 +37,7 @@ const Portafolio = () => {
       <div className="container__card">
         {data.map(({ imagen, nombre, description, demo, git }, index) => {
           return (
-            <div className="card__father">
+            <div key={index} className="card__father">
               <div className="card">
                 <div
                   className="card__front"
