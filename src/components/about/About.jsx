@@ -26,7 +26,7 @@ const About = () => {
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>proyectos</h5>
-              <small>10+</small>
+              <small>15+</small>
             </article>
             <article className="about__card">
               <FiUserCheck className="about__icon" />
@@ -35,8 +35,16 @@ const About = () => {
             </article>
           </div>
           <p>
-          Soy TSU informatica. Cuento con mas de 3 años de experiencia en el area de programacion.
-          He completado infinidades de cursos, tanto  el Frontend y Backend.
+            Soy TSU en Informática. Desarrollador de software, con experiencia
+            en PHP, específicamente con Laravel Framework. La mayor
+            parte de mis proyectos lo he trabajado con este Framework, debido a
+            su flexibilidad, su integridad y su robustez. También poseo mucha
+            experiencia en administración de bases de datos con
+            MySQL. Además, he trabajado en desarrollo front-end
+            Javascript con sus diferentes frameworks. Así como también he
+            realizado trabajos de diseño web. Por
+            otro lado, con el Framework React Native he desarrollado
+            aplicaciones móviles para Android.
           </p>
           <a href="#contact" className="btn btn-primary">
             Contactame
