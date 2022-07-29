@@ -8,7 +8,7 @@ const data = [
   {
     imagen: IMG3,
     nombre: "Lista de tareas",
-    description: "Es una  herramientas para ordenar tu día",
+    description: "Es una  herramientas para organizar tu día",
     demo: "https://lista-tarea-david.netlify.app",
     git: "https://githubaa.com",
   },
@@ -16,7 +16,7 @@ const data = [
     imagen: IMG1,
     nombre: "Peliculas",
     description:
-      "es una pagina de peliculas fue diseñada con react consumiendo una api",
+      "Pagina de peliculas, fue diseñada con React, consumiendo una API",
     demo: "https://david-urosa-movies.netlify.app",
     git: "https://github.com",
   },
@@ -24,7 +24,7 @@ const data = [
   {
     imagen: IMG2,
     nombre: "Apicacion movil",
-    description: "esta aplicacion fue diseñada con react Native",
+    description: "Aplicacion que fue diseñada con React Native",
     demo: "https://githubsa.com",
     git: "https://githubaas.com",
   },
