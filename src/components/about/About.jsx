@@ -8,8 +8,8 @@ import { VscFolderLibrary } from "react-icons/vsc";
 const About = () => {
   return (
     <section id="about">
-      <h5>conozca</h5>
-      <h2>sobre mi</h2>
+      <h5>Conozca</h5>
+      <h2>Sobre mi</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -25,17 +25,17 @@ const About = () => {
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>proyectos</h5>
-              <small>15+</small>
+              <h5>Proyectos</h5>
+              <small>18+</small>
             </article>
             <article className="about__card">
               <FiUserCheck className="about__icon" />
-              <h5>clientes</h5>
+              <h5>Clientes</h5>
               <small>3+</small>
             </article>
           </div>
           <p>
-            Soy TSU en Informática. Desarrollador de software, con experiencia
+            Soy un Desarrollador de software, con experiencia
             en PHP, específicamente con Laravel Framework. La mayor
             parte de mis proyectos lo he trabajado con este Framework, debido a
             su flexibilidad, su integridad y su robustez. También poseo mucha

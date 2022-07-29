@@ -14,7 +14,7 @@ const Services = () => {
       <ul className='service__list'>
         <li>
           <AiOutlineCheck className='service__list-icon'/>
-          <p>autentificación de usuarios</p>
+          <p>Autentificación de usuarios</p>
         </li>
         <li>
           <AiOutlineCheck className='service__list-icon'/>
@@ -31,10 +31,6 @@ const Services = () => {
         <li>
           <AiOutlineCheck className='service__list-icon'/>
           <p>Laravel</p>
-        </li>
-        <li>
-          <AiOutlineCheck className='service__list-icon'/>
-          <p>CRUD</p>
         </li>
         <li>
           <AiOutlineCheck className='service__list-icon'/>
@@ -74,11 +70,7 @@ const Services = () => {
         </li>
         <li>
           <AiOutlineCheck className='service__list-icon'/>
-          <p>VIstas de CRUD</p>
-        </li>
-        <li>
-          <AiOutlineCheck className='service__list-icon'/>
-          <p>VIstas de Modulos principales</p>
+          <p>Vistas de Modulos principales</p>
         </li>
       </ul>
     </article>
@@ -90,11 +82,11 @@ const Services = () => {
       <ul className='service__list'>
         <li>
           <AiOutlineCheck className='service__list-icon'/>
-          <p>consumo de API</p>
+          <p>Consumo de API</p>
         </li>
         <li>
           <AiOutlineCheck className='service__list-icon'/>
-          <p> React Native</p>
+          <p>React Native</p>
         </li>
         <li>
           <AiOutlineCheck className='service__list-icon'/>
