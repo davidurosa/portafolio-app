@@ -14,7 +14,7 @@ const Services = () => {
       <ul className='service__list'>
         <li>
           <AiOutlineCheck className='service__list-icon'/>
-          <p>Autentificación de usuarios</p>
+          <p>Laravel</p>
         </li>
         <li>
           <AiOutlineCheck className='service__list-icon'/>
@@ -41,36 +41,28 @@ const Services = () => {
 
     <article className="service">
       <div className="service__head">
-        <h3>WEB developer</h3>
+        <h3>Diseño y desarrollo web</h3>
       </div>
       <ul className='service__list'>
         <li>
           <AiOutlineCheck className='service__list-icon'/>
-          <p>Consumo de API</p>
+          <p>Lading Page</p>
         </li>
         <li>
           <AiOutlineCheck className='service__list-icon'/>
-          <p>Resposive</p>
+          <p>One Page</p>
         </li>
         <li>
           <AiOutlineCheck className='service__list-icon'/>
-          <p>ReactJS O Vue</p>
+          <p>Blog</p>
         </li>
         <li>
           <AiOutlineCheck className='service__list-icon'/>
-          <p>Boosptrap</p>
+          <p>Aplicaciones web</p>
         </li>
         <li>
           <AiOutlineCheck className='service__list-icon'/>
-          <p>Vistas de Login</p>
-        </li>
-        <li>
-          <AiOutlineCheck className='service__list-icon'/>
-          <p>Vista de registro</p>
-        </li>
-        <li>
-          <AiOutlineCheck className='service__list-icon'/>
-          <p>Vistas de Modulos principales</p>
+          <p>Noticias</p>
         </li>
       </ul>
     </article>
@@ -86,20 +78,13 @@ const Services = () => {
         </li>
         <li>
           <AiOutlineCheck className='service__list-icon'/>
-          <p>React Native</p>
+          <p>Android</p>
         </li>
         <li>
           <AiOutlineCheck className='service__list-icon'/>
-          <p>Expo</p>
+          <p>IOS</p>
         </li>
-        <li>
-          <AiOutlineCheck className='service__list-icon'/>
-          <p>Componentes</p>
-        </li>
-        <li>
-          <AiOutlineCheck className='service__list-icon'/>
-          <p>React base</p>
-        </li>
+
       </ul>
     </article>
   </div>
