@@ -1,0 +1,55 @@
+{
+  "header": {
+    "greeting": "Hi, I'm",
+    "language": "Languages",
+    "CV": "Download CV",
+    "contact": "Contact",
+    "scroll": "Scroll down"
+  },
+
+  "about": {
+    "know": "know",
+    "me": "About me",
+    "description": "I am a Software Developer, with experience in PHP, specifically with the Laravel Framework. Most of my projects have been worked with this Framework, due to its flexibility, its integrity and its robustness. I also have a lot of experience in database administration with MySQL. In addition, I have worked on the front-end development of Javascript with its different frameworks. As well as I have done web design work. On the other hand, with React Native Framework I have developed mobile applications for Android.",
+    "experience":"Experience",
+    "projects":"Projects",
+    "clients":"Clients",
+    "year":"years of developer",
+    "contact":"Contact me"
+  },
+
+  "experience":{
+    "skill":"What skills do i have",
+    "experience":"My experience",
+    "ex":"Experienced"
+  },
+
+  "services":{
+    "what":"What do i offer",
+    "services":"Services"
+  },
+
+  "portfolio":{
+    "portfolio":"Portfolio",
+    "watch":"Watch"
+  },
+
+  "contact":{
+    "title":"Get in touch",
+    "subtitle":"Contact me",
+    "email":"your email",
+    "name":"your name",
+    "message":"your message",
+    "send" :"send Message"
+  },
+
+  "footer":{
+    "all":"All rights reserved",
+    "home":"Home",
+    "about":"About",
+    "services":"services",
+    "portfolio":"Portfolio",
+    "experience":"Experience",
+    "contact":"contact"
+  }
+}

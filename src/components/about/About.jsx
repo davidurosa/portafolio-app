@@ -4,12 +4,15 @@ import ME from "../../assets/david-about.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUserCheck } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const [t] = useTranslation("global");
+
   return (
     <section id="about">
-      <h5>Conozca</h5>
-      <h2>Sobre mi</h2>
+      <h5>{t("about.know")}</h5>
+      <h2>{t("about.me")}</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -20,34 +23,25 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experiencia</h5>
-              <small>3+ años de desarrolador</small>
+              <h5>{t("about.experience")}</h5>
+              <small>3+ {t("about.year")}</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Proyectos</h5>
+              <h5>{t("about.projects")}</h5>
               <small>18+</small>
             </article>
             <article className="about__card">
               <FiUserCheck className="about__icon" />
-              <h5>Clientes</h5>
+              <h5>{t("about.clients")}</h5>
               <small>3+</small>
             </article>
           </div>
           <p>
-            Soy un Desarrollador de software, con experiencia
-            en PHP, específicamente con Laravel Framework. La mayor
-            parte de mis proyectos lo he trabajado con este Framework, debido a
-            su flexibilidad, su integridad y su robustez. También poseo mucha
-            experiencia en administración de bases de datos con
-            MySQL. Además, he trabajado en desarrollo front-end
-            Javascript con sus diferentes frameworks. Así como también he
-            realizado trabajos de diseño web. Por
-            otro lado, con el Framework React Native he desarrollado
-            aplicaciones móviles para Android.
+           {t("about.description")}
           </p>
           <a href="#contact" className="btn btn-primary">
-            Contactame
+            {t("about.contact")}
           </a>
         </div>
       </div>

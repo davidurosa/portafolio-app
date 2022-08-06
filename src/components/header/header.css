@@ -1,5 +1,5 @@
 header{
-    height: 100vh;
+    height: 110vh;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -9,6 +9,19 @@ header{
     height: 100%;
     position: relative;
 }
+
+
+/* ===========Language ============== */
+
+.language{
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    width: 20%;
+    justify-content: center;
+}
+
+
 
 
 /* ===========CTA ============== */
@@ -67,8 +80,13 @@ header{
 /* ============MEDIA QUERY()MEDIA DIVICES================= */
 
 @media screen and (max-width: 1024px  ) {
+
     header{
-        height: 68vh;
+        height: 45vh;
+    }
+
+    .header__socials,.scroll__down,.me{
+        display: none;
     }
     
 }
@@ -77,11 +95,19 @@ header{
 
 @media screen and (max-width: 600px  ) {
     header{
-        height: 60vh;
+        height: 65vh;
 
     }
 
     .header__socials,.scroll__down,.me{
         display: none;
+    }
+
+    .language{
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        width: 30%;
+        justify-content: center;
     }
 }

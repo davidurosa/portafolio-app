@@ -1,11 +1,15 @@
 import React from 'react'
 import './services.css'
 import {AiOutlineCheck} from 'react-icons/ai'
+import { useTranslation } from 'react-i18next';
 const Services = () => {
+
+  const [t] = useTranslation("global");
+
   return (
 <section id='services'>
-  <h5>Que ofrezco</h5>
-  <h2>Servicios</h2>
+  <h5>{t("services.what")}</h5>
+  <h2>{t("services.services")}</h2>
   <div className="container services__container">
     <article className="service">
       <div className="service__head">
@@ -22,26 +26,26 @@ const Services = () => {
         </li>
         <li>
           <AiOutlineCheck className='service__list-icon'/>
-          <p>Roles y permisos</p>
+          <p>Roles and permissions</p>
         </li>
         <li>
           <AiOutlineCheck className='service__list-icon'/>
-          <p>Solicitudes HTTP</p>
+          <p>http requests</p>
         </li>
         <li>
           <AiOutlineCheck className='service__list-icon'/>
-          <p>Laravel</p>
+          <p>Main Modules</p>
         </li>
         <li>
           <AiOutlineCheck className='service__list-icon'/>
-          <p>Modulos Principales</p>
+          <p>authentication</p>
         </li>
       </ul>
     </article>
 
     <article className="service">
       <div className="service__head">
-        <h3>Diseño y desarrollo web</h3>
+        <h3>Web design and development</h3>
       </div>
       <ul className='service__list'>
         <li>
@@ -58,23 +62,23 @@ const Services = () => {
         </li>
         <li>
           <AiOutlineCheck className='service__list-icon'/>
-          <p>Aplicaciones web</p>
+          <p>Web applications</p>
         </li>
         <li>
           <AiOutlineCheck className='service__list-icon'/>
-          <p>Noticias</p>
+          <p>News</p>
         </li>
       </ul>
     </article>
 
     <article className="service">
       <div className="service__head">
-        <h3>Aplicaciones Moviles</h3>
+        <h3>Mobile apps</h3>
       </div>
       <ul className='service__list'>
         <li>
           <AiOutlineCheck className='service__list-icon'/>
-          <p>Consumo de API</p>
+          <p>API consumption</p>
         </li>
         <li>
           <AiOutlineCheck className='service__list-icon'/>

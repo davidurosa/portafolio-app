@@ -2,17 +2,21 @@
 import React from 'react'
 import './footer.css'
 import {FaLinkedinIn,FaFacebookF,FaTwitter} from 'react-icons/fa'
+import { useTranslation } from 'react-i18next';
 const Footer = () => {
+  const [t] = useTranslation("global");
+
+
   return (
     <footer>
       <a href="#" className='footer__logo'>DAVID</a>
       <ul className='permalinks'>
-        <li><a href="#">Principio</a></li>
-        <li><a href="#about">Sobre mi</a></li>
-        <li><a href="#experience">Experiencia</a></li>
-        <li><a href="#services">Servicios</a></li>
-        <li><a href="#portafolio">Portafolios</a></li>
-        <li><a href="#contact">Contacto</a></li>
+        <li><a href="#">{t("footer.home")}</a></li>
+        <li><a href="#about">{t("footer.about")}</a></li>
+        <li><a href="#experience">{t("footer.experience")}</a></li>
+        <li><a href="#services">{t("footer.services")}</a></li>
+        <li><a href="#portafolio">{t("footer.portfolio")}</a></li>
+        <li><a href="#contact">{t("footer.contact")}</a></li>
       </ul>
 
       <div className="footer__socials">
@@ -22,7 +26,7 @@ const Footer = () => {
       </div>
       <div className="footer__copyright">
         <small>
-         &copy; David Urosa, todos los derechos reservados.
+         &copy; {t("footer.all")}
         </small>
       </div>
     </footer>

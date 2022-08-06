@@ -1,0 +1,56 @@
+{
+  "header": {
+    "greeting": "Hola, yo soy",
+    "language": "Idiomas",
+    "CV": "Descargar CV",
+    "contact": "Contacto",
+    "scroll": "Desplazarse hacia abajo"
+  },
+
+  "about": {
+    "know": "Conozca ",
+    "me": "Sobre mi",
+    "description": "Soy Desarrollador de Software, con experiencia en PHP, específicamente con el Framework Laravel. La mayoría de mis proyectos han sido trabajados con este Framework, debido a su flexibilidad, su integridad y su robustez. También tengo mucha experiencia en la administración de bases de datos con MySQL. Además, he trabajado en el desarrollo front-end de Javascript con sus diferentes frameworks. Así como también he realizado trabajos de diseño web. Por otro lado, con React Native Framework he desarrollado aplicaciones móviles para Android.",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "clients": "Clientes",
+    "year":"Años de dasarrollador",
+    "contact":"Contactame"
+  },
+
+  "experience":{
+    "skill":"Que habilidades tengo",
+    "experience":"Mi experiensa",
+    "ex":"Experimentado"
+  },
+
+  "services":{
+    "what":"Que ofrezco",
+    "services":"Servicios"
+  },
+
+  "portfolio":{
+    "portfolio":"Portafolio",
+    "watch":"Ver"
+  },
+
+  
+  "contact":{
+    "title":"Ponerse en contacto",
+    "subtitle":"Contactame",
+    "email":"tu email",
+    "name":"tu nombre",
+    "message":"tu mensaje",
+    "send" :"Enviar mensaje"
+  },
+
+  "footer":{
+    "all":"Todos los derechos reservados",
+    "home":"Principio",
+    "about":"Sobre mi",
+    "services":"Servicios",
+    "portfolio":"Portafolio",
+    "experience":"Experiensa",
+    "contact":"contacto"
+  }
+}

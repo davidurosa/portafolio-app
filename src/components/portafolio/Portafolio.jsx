@@ -3,37 +3,40 @@ import "./portafolio.css";
 import IMG1 from "../../assets/peliculas.png";
 import IMG2 from "../../assets/aplicacion.png";
 import IMG3 from "../../assets/lista_tareas.png";
+import { useTranslation } from "react-i18next";
 
 const data = [
   {
     imagen: IMG3,
-    nombre: "Lista de tareas",
-    description: "Es una  herramientas para organizar tu día",
+    nombre: "Things to do",
+    description: "It is a tool to organize your day",
     demo: "https://lista-tarea-david.netlify.app",
     git: "https://githubaa.com",
   },
   {
     imagen: IMG1,
-    nombre: "Peliculas",
+    nombre: "Movies",
     description:
-      "Pagina de peliculas, fue diseñada con React, consumiendo una API",
+      "Movies page, was designed with React, consuming an API",
     demo: "https://david-urosa-movies.netlify.app",
     git: "https://github.com",
   },
 
   {
     imagen: IMG2,
-    nombre: "Apicacion movil",
-    description: "Aplicacion que fue diseñada con React Native",
+    nombre: "Mobile app",
+    description: "Application that was designed with React Native",
     demo: "https://githubsa.com",
     git: "https://githubaas.com",
   },
 ];
 
 const Portafolio = () => {
+  const [t] = useTranslation("global");
+
   return (
     <section id="portafolio">
-      <h2>Portafolio</h2>
+      <h2>{t("portfolio.portfolio")}</h2>
       <div className="container__card">
         {data.map(({ imagen, nombre, description, demo, git }, index) => {
           return (
@@ -66,7 +69,7 @@ const Portafolio = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Ver
+                      {t("portfolio.watch")}
                     </a>
                   </div>
                 </div>
