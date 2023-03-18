@@ -14,6 +14,13 @@ const Experience = () => {
         <div className="experiencie__frontend">
           <h3>Frontend developmen</h3>
           <div className="experience__content">
+          <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon"/>
+              <div>
+                <h4>ReactJS</h4>
+                <small className="text-light">{t("experience.ex")}</small>
+              </div>
+            </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
@@ -31,7 +38,14 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
-                <h4>JavaScript</h4>
+                <h4>Sass</h4>
+                <small className="text-light">{t("experience.ex")}</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon"/>
+              <div>
+                <h4>JS</h4>
                 <small className="text-light">{t("experience.ex")}</small>
               </div>
             </article>
@@ -45,24 +59,12 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
-                <h4>Material Design</h4>
+                <h4>JQuery</h4>
                 <small className="text-light">{t("experience.ex")}</small>
               </div>
             </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon"/>
-              <div>
-                <h4>ReactJS</h4>
-                <small className="text-light">{t("experience.ex")}</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon"/>
-              <div>
-                <h4>React Native</h4>
-                <small className="text-light">{t("experience.ex")}</small>
-              </div>
-            </article>
+           
+           
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
@@ -93,6 +95,13 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
                 <h4>Laravel</h4>
+                <small className="text-light">{t("experience.ex")}</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon"/>
+              <div>
+                <h4>Node</h4>
                 <small className="text-light">{t("experience.ex")}</small>
               </div>
             </article>

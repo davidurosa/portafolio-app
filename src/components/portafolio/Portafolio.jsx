@@ -1,11 +1,20 @@
 import React from "react";
 import "./portafolio.css";
 import IMG1 from "../../assets/peliculas.png";
-import IMG2 from "../../assets/aplicacion.png";
 import IMG3 from "../../assets/lista_tareas.png";
+import IMG4 from "../../assets/socials.png";
+
 import { useTranslation } from "react-i18next";
 
 const data = [
+
+  {
+    imagen: IMG4,
+    nombre: "Socials",
+    description: "this is a design of a social network",
+    demo: "https://social-david-urosa-git-master-davidurosa.vercel.app",
+    git: "https://githubaa.com",
+  },
   {
     imagen: IMG3,
     nombre: "Things to do",
@@ -22,13 +31,7 @@ const data = [
     git: "https://github.com",
   },
 
-  {
-    imagen: IMG2,
-    nombre: "Mobile app",
-    description: "Application that was designed with React Native",
-    demo: "https://githubsa.com",
-    git: "https://githubaas.com",
-  },
+  
 ];
 
 const Portafolio = () => {

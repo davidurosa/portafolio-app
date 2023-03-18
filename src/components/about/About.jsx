@@ -29,12 +29,12 @@ const About = () => {
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>{t("about.projects")}</h5>
-              <small>18+</small>
+              <small>30+</small>
             </article>
             <article className="about__card">
               <FiUserCheck className="about__icon" />
               <h5>{t("about.clients")}</h5>
-              <small>3+</small>
+              <small>10+</small>
             </article>
           </div>
           <p>
