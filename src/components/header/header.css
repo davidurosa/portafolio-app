@@ -50,9 +50,11 @@ header{
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
+    color: var(--color-primary);
 }
 
 .me{
+    position: relative;
     background: linear-gradient(var(--color-primary),transparent) ;
     width: 22rem;
     height: 25rem;
@@ -62,6 +64,28 @@ header{
     border-radius: 12rem ;
     overflow: hidden;
     padding: 2rem 1.5rem 1.5rem 1.5rem ;
+    animation: floatImage  4s ease-in-out infinite;
+}
+
+
+
+.me img{
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+}
+
+@keyframes floatImage {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-2.4rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 
 
@@ -82,12 +106,12 @@ header{
 @media screen and (max-width: 1024px  ) {
 
     header{
-        height: 70vh;
+        height: 150vh;
     }
 
-    .header__socials,.scroll__down,.me{
+    /* .header__socials,.scroll__down,.me{
         display: none;
-    }
+    } */
     
 }
 

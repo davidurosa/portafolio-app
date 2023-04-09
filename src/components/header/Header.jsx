@@ -1,7 +1,7 @@
 import React from "react";
 import CTA from "./CTA";
 import "./header.css";
-import ME from "../../assets/MESIN.png";
+import ME from "../../assets/ia3.png";
 import HeaderSocial from "./HeaderSocial";
 import { useTranslation } from "react-i18next";
 import { Language } from "./Language";

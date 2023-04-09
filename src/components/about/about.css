@@ -21,11 +21,18 @@
 .about__me-image {
   border-radius: 2.5rem;
   background-size: contain;
-  position: absolute;
   object-fit: cover;
   overflow: hidden;
   transform: rotate(10deg);
   transition: var(--transition);
+}
+
+
+.about__me-image img{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+
 }
 
  
@@ -34,6 +41,8 @@
 .about__me-image:hover {
   transform: rotate(0);
 }
+
+
 
 .about__cards{
     display: grid;

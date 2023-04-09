@@ -5,7 +5,6 @@ import IMG3 from "../../assets/lista_tareas.png";
 import IMG4 from "../../assets/socials.png";
 
 import { useTranslation } from "react-i18next";
-import { BsGithub } from "react-icons/bs";
 
 const data = [
 
@@ -27,7 +26,7 @@ const data = [
     imagen: IMG1,
     nombre: "Movies",
     description:
-      "Movies page, was designed with React",
+      "Movies page, was designed with React, consuming an API",
     demo: "https://david-urosa-movies.netlify.app",
     git: "https://github.com",
   },
@@ -39,26 +38,33 @@ const Portafolio = () => {
   const [t] = useTranslation("global");
 
   return (
-    <section id="portafolio" className="portafolio">
+    <section id="portafolio">
       <h2>{t("portfolio.portfolio")}</h2>
-        <div className="portafolio-container container">
+      <div className="container__card">
         {data.map(({ imagen, nombre, description, demo, git }, index) => {
-             return (
-            <div className="portafolio-box">
-                <img src={imagen} alt="" />
-                <div className="portafolio-layer">
-                    <h4>{nombre}</h4>
+          return (
+            <div key={index} className="card__father">
+              <div className="card">
+                <div
+                  className="card__front"
+                  style={{ backgroundImage: `url(${imagen})` }}
+                >
+                  <div className="bg"></div>
+                  <div className="body__card_front">
+                    <h2>{nombre}</h2>
+                  </div>
+                </div>
+                <div className="card__back">
+                  <div className="body__card_back">
+                    <h2>{nombre}</h2>
                     <p>{description}</p>
-                    <div className="portafolio-buttoms">
-
                     <a
                       href={git}
                       className="btn btn_all "
                       target="_blank"
                       rel="noreferrer"
                     >
-                           <BsGithub/>
-
+                      GIT
                     </a>
                     <a
                       href={demo}
@@ -68,13 +74,15 @@ const Portafolio = () => {
                     >
                       {t("portfolio.watch")}
                     </a>
-                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-              );
-            })}
-    
-        </div>
+          );
+        })}
+
+        {/* 2 */}
+      </div>
     </section>
   );
 };
