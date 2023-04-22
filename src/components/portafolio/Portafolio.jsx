@@ -1,38 +1,61 @@
 import React from "react";
 import "./portafolio.css";
 import IMG1 from "../../assets/peliculas.png";
-import IMG3 from "../../assets/lista_tareas.png";
-import IMG4 from "../../assets/socials.png";
+import IMG2 from "../../assets/lista_tareas.png";
+import IMG3 from "../../assets/socials.png";
+import IMG4 from "../../assets/login.png";
+import IMG5 from "../../assets/cards-animation.png";
+import IMG6 from "../../assets/calculadora.png";
 
 import { useTranslation } from "react-i18next";
 import { BsGithub } from "react-icons/bs";
 
 const data = [
-
-  {
-    imagen: IMG4,
-    nombre: "Socials",
-    description: "this is a design of a social network",
-    demo: "https://social-david-urosa-git-master-davidurosa.vercel.app",
-    git: "https://githubaa.com",
-  },
-  {
-    imagen: IMG3,
-    nombre: "Things to do",
-    description: "It is a tool to organize your day",
-    demo: "https://lista-tarea-david.netlify.app",
-    git: "https://githubaa.com",
-  },
+ 
   {
     imagen: IMG1,
     nombre: "Movies",
     description:
-      "Movies page, was designed with React",
+    "Movies page, was designed with React",
     demo: "https://david-urosa-movies.netlify.app",
-    git: "https://github.com",
+    git: "https://github.com/davidurosa",
+  },
+  {
+    imagen: IMG2,
+    nombre: "Things to do",
+    description: "It is a tool to organize your day",
+    demo: "https://lista-tarea-david.netlify.app",
+    git: "https://github.com/davidurosa",
+  },
+  {
+    imagen: IMG3,
+    nombre: "Socials",
+    description: "this is a design of a social network",
+    demo: "https://social-david-urosa-git-master-davidurosa.vercel.app",
+    git: "https://github.com/davidurosa",
   },
 
-  
+  {
+    imagen: IMG4,
+    nombre: "Login",
+    description: "this is a design of a login with animation",
+    demo: "https://login-davidurosa.vercel.app",
+    git: "https://github.com/davidurosa",
+  },
+  {
+    imagen: IMG5,
+    nombre: "Cards animation",
+    description: "This is a card design with animation",
+    demo: "https://card-animation-1.vercel.app",
+    git: "https://github.com/davidurosa",
+  },
+  {
+    imagen: IMG6,
+    nombre: "Calculator",
+    description: "This is a calculator",
+    demo: "https://calculadora-jade-nine.vercel.app",
+    git: "https://github.com/davidurosa",
+  }
 ];
 
 const Portafolio = () => {

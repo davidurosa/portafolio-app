@@ -1,22 +1,22 @@
 import React from "react";
 import "./portafolio.css";
 import IMG1 from "../../assets/peliculas.png";
-import IMG3 from "../../assets/lista_tareas.png";
-import IMG4 from "../../assets/socials.png";
+import IMG2 from "../../assets/lista_tareas.png";
+import IMG3 from "../../assets/socials.png";
 
 import { useTranslation } from "react-i18next";
 
 const data = [
-
+  
   {
-    imagen: IMG4,
+    imagen: IMG3,
     nombre: "Socials",
     description: "this is a design of a social network",
     demo: "https://social-david-urosa-git-master-davidurosa.vercel.app",
     git: "https://githubaa.com",
   },
   {
-    imagen: IMG3,
+    imagen: IMG2,
     nombre: "Things to do",
     description: "It is a tool to organize your day",
     demo: "https://lista-tarea-david.netlify.app",
