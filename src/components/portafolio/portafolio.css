@@ -26,6 +26,7 @@
     background-size: contain;
   object-fit: cover;
   transition: all ease 500ms;
+  transform: scale(1.1);
 }
 
 .portafolio-container .portafolio-box img:hover{

@@ -2,9 +2,9 @@ import React from "react";
 import "./portafolio.css";
 import IMG1 from "../../assets/peliculas.png";
 import IMG2 from "../../assets/lista_tareas.png";
-import IMG3 from "../../assets/socials.png";
+import IMG3 from "../../assets/social.png";
 import IMG4 from "../../assets/login.png";
-import IMG5 from "../../assets/cards-animation.png";
+import IMG5 from "../../assets/jonathan.png";
 import IMG6 from "../../assets/calculadora.png";
 
 import { useTranslation } from "react-i18next";
@@ -44,9 +44,9 @@ const data = [
   },
   {
     imagen: IMG5,
-    nombre: "Cards animation",
-    description: "This is a card design with animation",
-    demo: "https://card-animation-1.vercel.app",
+    nombre: "portfolio",
+    description: "this is the portfolio of jonathan urosa",
+    demo: "https://jonathan-urosa.netlify.app",
     git: "https://github.com/davidurosa",
   },
   {
