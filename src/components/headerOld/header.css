@@ -1,0 +1,137 @@
+header{
+    height: 140vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+
+/* ===========Language ============== */
+
+.language{
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    width: 20%;
+    justify-content: center;
+}
+
+
+
+
+/* ===========CTA ============== */
+
+.cta{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* =========== HEADER SOCIAL ============== */
+
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header__socials::after{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+    color: var(--color-primary);
+}
+
+.me{
+    position: relative;
+    background: linear-gradient(var(--color-primary),transparent) ;
+    width: 22rem;
+    height: 25rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top:9rem;
+    border-radius: 12rem ;
+    overflow: hidden;
+    padding: 2rem 1.5rem 1.5rem 1.5rem ;
+    animation: floatImage  4s ease-in-out infinite;
+}
+
+
+
+.me img{
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+}
+
+@keyframes floatImage {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-2.4rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
+/* =========== SCROLL DOWN ============== */
+
+.scroll__down{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 6rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+
+/* ============MEDIA QUERY()MEDIA DIVICES================= */
+
+@media screen and (max-width: 1024px  ) {
+
+    header{
+        height: 150vh;
+    }
+
+    /* .header__socials,.scroll__down,.me{
+        display: none;
+    } */
+    
+}
+
+/* ============MEDIA QUERY(SMALL DIVICES)================= */
+
+@media screen and (max-width: 600px  ) {
+    header{
+        height: 70vh;
+
+    }
+
+    .header__socials,.scroll__down,.me{
+        display: none;
+    }
+
+    .language{
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        width: 30%;
+        justify-content: center;
+    }
+}

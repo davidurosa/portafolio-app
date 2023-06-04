@@ -1,5 +1,5 @@
 footer{
-    background: var(--color-primary);
+    background: linear-gradient(135deg, var(--color-primary) 100%, var(--color-primary-variant)50%);
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9;
