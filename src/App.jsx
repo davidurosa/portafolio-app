@@ -1,14 +1,12 @@
 
-/* import Header from './components/header/Header.jsx'
- */
+import Header from './components/header/Header.jsx'
+import Nav from './components/nav/Nav.jsx'
 import About from './components/about/About'
 import Services from './components/services/Services'
+import Experience from './components/experience/Experience'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import Portafolio from './components/portafolio/Portafolio.jsx'
-import { Header } from './components/header/Header.jsx'
-import { Home } from './components/home/Home'
-import { Skill } from './components/skill/Skill'
 
 
 
@@ -17,11 +15,10 @@ import { Skill } from './components/skill/Skill'
 function App() {
   return (
     <>
- 
     <Header/>
-    <Home/>
+    <Nav/>
     <About/>
-    <Skill/>
+    <Experience/>
     <Services/>
     <Portafolio/>
     <Contact/>

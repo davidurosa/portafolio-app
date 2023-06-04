@@ -67,7 +67,7 @@ const Portafolio = () => {
         <div className="portafolio-container container">
         {data.map(({ imagen, nombre, description, demo, git }, index) => {
              return (
-            <div className="portafolio-box" key={index}>
+            <div className="portafolio-box">
                 <img src={imagen} alt="" />
                 <div className="portafolio-layer">
                     <h4>{nombre}</h4>

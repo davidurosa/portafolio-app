@@ -1,17 +1,6 @@
 {
-
-  "nav": {
-    "home": "Home",
-    "about": "About",
-    "services": "Services",
-    "portfolio": "Portfolio",
-    "contact": "Contact",
-    "experience": "Experience"
-  },
-
-  "home": {
-    "greeting": "Hi, It's me",
-    "soy": "I am a professional full-stack developer",
+  "header": {
+    "greeting": "Hi, I'm",
     "language": "Languages",
     "CV": "Download CV",
     "contact": "Contact",
@@ -31,12 +20,6 @@
 
   "experience":{
     "skill":"What skills do i have",
-    "frontend":"Frontend developer",
-    "year-frontend":"more then 2 years",
-    "backend":"Backend developer",
-    "year-backend":"more then 4 years",
-    "designer":"Designer",
-    "year-designer":"more then 2 years",
     "experience":"My experience",
     "ex":"Experienced"
   },

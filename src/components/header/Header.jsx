@@ -1,39 +1,33 @@
-import { useState } from 'react';
-import './header.css';
-import Logo from "../../assets/logo.png";
-import { AiOutlineMenu } from 'react-icons/ai';
+import React from "react";
+import CTA from "./CTA";
+import "./header.css";
+import ME from "../../assets/ia3.png";
+import HeaderSocial from "./HeaderSocial";
 import { useTranslation } from "react-i18next";
-
-
-export const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+import { Language } from "./Language";
+const Header = () => {
   const [t] = useTranslation("global");
 
-  function toggleMenu() {
-    setIsMenuOpen(!isMenuOpen);
-  }
-
-  const [activeNav, setactiveNav] = useState('#')
-
   return (
-    <header className="header">
-        <div className="container header__container">
-            <div className='header__img'>
-            <img src={Logo} alt="" />
-              <span className='header__title'>avid</span>
-            </div>
-            <nav  className={`header__nav ${isMenuOpen ? 'active' : ''}`}>
-            <a href="#" onClick={()=>setactiveNav('#')}  className={activeNav==='#'?'active':''}>{t("nav.home")}</a>
-      <a href="#about" onClick={()=>setactiveNav('#about')} className={activeNav==='#about'?'active':''}>{t("nav.about")} </a>
-      <a href="#experience" onClick={()=>setactiveNav('#experience')} className={activeNav==='#experience'?'active':''}>{t("nav.experience")} </a>
-      <a href="#services" onClick={()=>setactiveNav('#services')} className={activeNav==='#services'?'active':''}>{t("nav.services")} </a>
-      <a href="#portafolio" onClick={()=>setactiveNav('#portafolio')} className={activeNav==='#portafolio'?'active':''}>{t("nav.portfolio")}</a>
+    <header>
+      <div className="container header__container">
+        <h5>{t("header.greeting")}</h5>
+        <h1>David Urosa</h1>
+        <h5 className="text-light">Fullstack Developer</h5>
+        <Language/>
+        <CTA />
+        <HeaderSocial />
 
-            </nav>
-            <div className='toggle-btn'  onClick={toggleMenu}>
-            <AiOutlineMenu/>
-            </div>
-        </div>    
+        <div className="me">
+          <img src={ME} alt="me" />
+        </div>
+
+        <a href="#contact" className="scroll__down">
+          {t("header.scroll")}
+        </a>
+      </div>
     </header>
-  )
-}
+  );
+};
+
+export default Header;

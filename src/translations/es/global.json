@@ -1,18 +1,6 @@
 {
-  
-  
-  "nav": {
-    "home": "Inicio",
-    "about": "Sobre mi",
-    "services": "Servicios",
-    "portfolio": "Portafolio",
-    "contact": "Contactame",
-    "experience": "Experiencia"
-  },
-  
-  "home": {
+  "header": {
     "greeting": "Hola, yo soy",
-    "soy":"Soy desarrollador profesional full-stack",
     "language": "Idiomas",
     "CV": "Descargar CV",
     "contact": "Contacto",
@@ -32,12 +20,6 @@
 
   "experience":{
     "skill":"Que habilidades tengo",
-    "frontend":"Desarrollador frontend",
-    "year-frontend":"más de 2 años",
-    "backend":"Desarrollador Backend ",
-    "year-backend":"más de 4 años",
-    "designer":"Diseñador",
-    "year-designer":"más de 2 años",
     "experience":"Mi experiensa",
     "ex":"Experimentado"
   },
