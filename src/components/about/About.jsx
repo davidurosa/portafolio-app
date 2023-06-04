@@ -15,7 +15,11 @@ const About = () => {
       <h2>{t("about.me")}</h2>
       <div className="container about__container">
         <div className="about__me">
-          <div className="about__me-image">
+        <div className="about__me-bg"></div>
+          <div className="about__me-image-lg">
+            <img src={ME} alt="About_Image" />
+          </div>
+          <div className="about__me-image-sm">
             <img src={ME} alt="About_Image" />
           </div>
         </div>

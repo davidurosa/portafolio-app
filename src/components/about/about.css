@@ -1,10 +1,11 @@
 .about__container {
   display: grid;
-  grid-template-columns: 35% 50%;
-  gap: 15%;
+  grid-template-columns: 45% 45%;
+  gap: 10%;
+  position: relative;
 }
 
-.about__me {
+/* .about__me {
   width: 100%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
@@ -16,31 +17,53 @@
   );
   display: grid;
   place-items: center;
-}
+} */
 
-.about__me-image {
-  border-radius: 2.5rem;
-  background-size: contain;
-  object-fit: cover;
+.about__me-bg{
+  background-color: var(--color-primary);
+  height: 22rem;
+  width: 16rem;
+  position: absolute;
+  border: 3px solid var(--color-primary);
+  box-shadow: 0 0 1rem var(--color-primary);
+ }
+
+ .about__me-image-lg{
+  width: 29rem;
+  position: relative;
+  top: 1rem;
+  left: 1rem;
+  filter: saturate(0) brightness(0.3);
   overflow: hidden;
-  transform: rotate(10deg);
   transition: var(--transition);
-}
+  border: solid 1rem transparent;
+
+ }
 
 
-.about__me-image img{
-  display: block;
-  width: 100%;
-  object-fit: cover;
-
-}
+ .about__me-image-sm{
+  width: 28rem;
+  height: 28rem;
+  overflow: hidden;
+  position: absolute;
+  top: 6rem;
+  left: 6rem;
+ 
+ }
 
  
+ .about__me:hover  .about__me-image-sm{
+  opacity: 0;
+ }
 
+ .about__me:hover  .about__me-image-lg{
+  filter: saturate(1) brightness(1);
+  border: solid 1rem var(--color-primary);
+  box-shadow: 0 0 1rem var(--color-primary);
 
-.about__me-image:hover {
-  transform: rotate(0);
-}
+  top: 0;
+  left: 0;
+ }
 
 
 
@@ -93,8 +116,9 @@
     grid-template-columns: 1fr;
     gap: 0;
    }
+
    .about__me{
-        width: 50%;
+        width: 100%;
         margin: 2rem auto 4rem;
    }
   
@@ -103,6 +127,25 @@
     margin: 1rem 0 1.5rem;
 
 }
+
+.about__me-image-sm{
+  display: none;
+ 
+ }
+
+ .about__me-image-lg{
+  filter: saturate(1) brightness(1);
+ border: 0.5rem solid var(--color-primary);
+ box-shadow: 0 0 1rem var(--color-primary);
+ width: 100%;
+ top: 0;
+ left: 0;
+ }
+
+ .about__me-image-lg img{
+  width: 100%;
+ }
+
 }
 
 /* ============MEDIA QUERY(SMALL DIVICES)================= */
@@ -110,18 +153,11 @@
 @media screen and (max-width: 600px  ) {
     .about__me{
 
-        width: 75%;
+        width: 100%;
         margin: 0 auto 3rem;
    }
 
-   .about__me-image{
-    position: relative;
-    object-fit: cover;
-    display: flex;
-    width: 100%;
-    height: 100%;
-   
-   }
+
 
   
 
